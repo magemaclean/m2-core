@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MageMaclean_Core::magemaclean" title="MageMaclean" module="MageMaclean_Core" sortOrder="60" resource="MageMaclean_Core::magemaclean"/>
+        <add id="MageMaclean_Core::general" title="General" module="MageMaclean_Core" sortOrder="999" resource="MageMaclean_Core::general" parent="MageMaclean_Core::magemaclean"/>
+        <add id="MageMaclean_Core::configuration" title="Configuration" module="MageMaclean_Core" sortOrder="20" action="adminhtml/system_config/edit/section/magemaclean" resource="MageMaclean_Core::configuration" parent="MageMaclean_Core::general"/>
+        <add id="MageMaclean_Core::website" title="Our Marketplace" module="MageMaclean_Core" sortOrder="21" action="magemaclean/index/marketplace" resource="MageMaclean_Core::marketplace" parent="MageMaclean_Core::general"/>
+    </menu>
+</config>
