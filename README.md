@@ -33,7 +33,7 @@ php bin/magento setup:di:compile
 
 If you don't want to install via composer, you can download and install it this way. 
 
-- Download from (https://github.com/magemaclean/m2-core/archive/master.zip) 
+- Download from (https://github.com/magemaclean/m2-core/releases/) 
 - Create the directory path `app/code/MageMaclean/Core` if it does not already exist.
 - Extract `master.zip` file to `app/code/MageMaclean/Core` ;
 - Go to your Magento 2 root folder and run the following commands to install or upgrade `MageMaclean_Core`:
