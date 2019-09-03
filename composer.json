@@ -1,10 +1,6 @@
 {
     "name": "magemaclean/m2-core",
-    "description": "Magento 2 core module for MageMaclean extensions",
-    "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0|~7.2.0",
-        "magento/magento-composer-installer": "*"
-    },
+    "description": "MageMaclean Core module for MageMaclean extensions",
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
@@ -18,12 +14,12 @@
         "role": "Leader"
       }
     ],
-    "extra": {
-      "map": [
-        [
-          "*",
-          "MageMaclean/Core"
-        ]
-      ]
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "MageMaclean\\Core\\": ""
+      }
     }
   }
