@@ -5,9 +5,7 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="MageMaclean_Core::magemaclean" title="MageMaclean Extensions" sortOrder="45">
-                    <resource id="MageMaclean_Core::general" title="General" sortOrder="45">
-                        <resource id="MageMaclean_Core::marketplace" title="MageMaclean Marketplace" sortOrder="45"/>
-                    </resource>
+                    <resource id="MageMaclean_Core::general" title="General" sortOrder="45" />
                 </resource>
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
