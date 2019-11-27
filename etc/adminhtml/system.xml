@@ -6,7 +6,7 @@
             <label>MageMaclean Extensions</label>
         </tab>
         <section id="magemaclean" translate="label" type="text" sortOrder="6600" showInDefault="1" showInWebsite="0" showInStore="0">
-            <label>Menu Configuration</label>
+            <label>Core Configuration</label>
             <tab>magemaclean</tab>
             <resource>MageMaclean_Core::configuration</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
@@ -14,7 +14,6 @@
                 <field id="menu" translate="label comment" type="select" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Enable MageMaclean Menu</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <backend_model>MageMaclean\Core\Model\Config\Backend\Menu</backend_model>
                     <comment>If yes, the MageMaclean menu will be displayed on the admin navigation. All of the MageMaclean module menus will be displayed there.</comment>
                 </field>
             </group>

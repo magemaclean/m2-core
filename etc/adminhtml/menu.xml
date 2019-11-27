@@ -9,7 +9,7 @@
             resource="MageMaclean_Core::magemaclean" />
         
         <add id="MageMaclean_Core::general" 
-            title="General" 
+            title="Core" 
             module="MageMaclean_Core" 
             sortOrder="999" 
             parent="MageMaclean_Core::magemaclean" 
